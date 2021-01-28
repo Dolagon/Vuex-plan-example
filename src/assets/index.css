@@ -1,0 +1,33 @@
+body {
+    background: #fff;
+}
+
+.btn {
+    display: inline-block;
+    padding: 8px 10px;
+    margin-bottom: 0;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    /*属性设置元素的垂直对齐方式*/
+    vertical-align: middle;
+    cursor: pointer;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+}
+
+.btn-warning {
+    color: #fff;
+    background-color: black;
+    border: 1px solid white;
+}
+
+.btn-warning:hover {
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.btn:focus {
+    outline: none;
+}
